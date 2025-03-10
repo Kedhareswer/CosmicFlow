@@ -1,0 +1,231 @@
+/* popup.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ddd;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  #cosmic-flow-popup {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #282828;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cosmic-flow-header {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cosmic-flow-header h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .cosmic-flow-header button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  .cosmic-flow-header button:hover {
+    color: #fff;
+  }
+  
+  .cosmic-flow-settings {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .cosmic-flow-settings label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #ddd;
+  }
+  
+  .toggle-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggle-slider {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 16px;
+    margin-left: 10px;
+    background-color: #444;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-slider::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 1px;
+    bottom: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: left 0.3s;
+  }
+  
+  .toggle-checkbox:checked + .toggle-slider {
+    background-color: #007bff;
+  }
+  
+  .toggle-checkbox:checked + .toggle-slider::before {
+    left: 19px;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #333;
+    margin: 10px 0;
+  }
+  
+  .settings-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .settings-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cosmic-flow-content {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quick-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .quick-action-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00bfff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 5px;
+  }
+  
+  .quick-action-btn:last-child {
+    margin-right: 0;
+  }
+  
+  .quick-action-btn:hover {
+    background-color: #009acd;
+  }
+  
+  .quick-action-icon {
+    margin-right: 5px;
+    font-size: 1.2em;
+  }
+  
+  .chat-container {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 4px;
+    overflow-y: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chat-message {
+    margin: 5px 0;
+  }
+  
+  .chat-message strong {
+    color: #007bff;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container textarea {
+    flex: 1;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-color: #222;
+    color: #ddd;
+  }
+  
+  .input-container .send-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .input-container .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .paste-snippet-button {
+    background-color: #ffc107;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .paste-snippet-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .hidden {
+    display: none;
+  }
