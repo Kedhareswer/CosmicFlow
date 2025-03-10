@@ -2,7 +2,8 @@
 
 CosmicFlow is a powerful AI chatbot Chrome extension powered by the Nebius AI API using the Meta-Llama-3.1-70B-Instruct-fast model. It provides a seamless AI assistant experience directly in your browser.
 
-![CosmicFlow Banner](assets/banner.png)
+![CosmicFlow Banner](https://github.com/user-attachments/assets/5ba3d6d6-d270-4bb7-8d32-730a89ad73ae)
+)
 
 ## ✨ Features
 
