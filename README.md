@@ -20,7 +20,7 @@ CosmicFlow is a powerful AI chatbot Chrome extension powered by the Nebius AI AP
 
 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/CosmicFlow.git
+git clone https://github.com/warpirate/CosmicFlow.git
 ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
@@ -88,8 +88,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/CosmicFlow/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/warpirate/CosmicFlow/issues) on GitHub.
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Suhail
